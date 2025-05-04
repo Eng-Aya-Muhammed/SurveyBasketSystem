@@ -5,7 +5,7 @@ using SurveyBasket.API.Services;
 using SurveyBasket.API;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-
+//
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDependencies(builder.Configuration);
